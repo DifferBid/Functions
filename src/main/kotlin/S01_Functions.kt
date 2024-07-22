@@ -6,7 +6,6 @@ fun main(array: Array<String>){
     // запишем результат в переменную и выведем в консоль
     val developer = greet("Victor",24)
     println(developer)
-
     printGreeting()
 }
 
