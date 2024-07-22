@@ -1,8 +1,6 @@
 
 package org.example
 
-
-
 fun main(array: Array<String>){
 
     val a:Int = 2
