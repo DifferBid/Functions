@@ -27,6 +27,3 @@ fun displayInfo(name: String, age: Int, city: String) {
     println("Name: $name, Age: $age, City: $city")
 }
 
-fun configureServer(host: String = "localhost", port: Int = 8080, useSSL: Boolean = false) {
-    println("Host: $host, Port: $port, SSL: $useSSL")
-}
