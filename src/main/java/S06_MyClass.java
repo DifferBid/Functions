@@ -1,3 +1,4 @@
+
 import org.example.S05MyClass;
 
 public class S06_MyClass {
