@@ -41,12 +41,13 @@ import java.util.*
         val Date.day: Int
             get() = this.day // Вызов метода getDay() для получения значения
         // Теперь мы можем переписать нашу функцию isSaturday, используя свойство day
+
         // Использование свойства вместо метода
         fun Date.isSaturdayOne(): Boolean {
-            return day == 6
+            return day == 6 // day = public int getDay()
         }
         // Упрощение функции до одной строки
-        fun Date.isSaturdayTwo(): Boolean = day == 6
+        fun Date.isSaturdayTwo(): Boolean = day == 6 // day = public int getDay()
 
         // Упрощение функции до одной строки
         fun Date.isNumberDate(): Boolean = date == 6  // date = public int getDate()
