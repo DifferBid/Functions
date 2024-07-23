@@ -49,4 +49,4 @@ package org.example
             set(value: Char) {
             this.setCharAt(length - 1, value) // установка нового значения для последнего символа
             }
-        // Теперь мы можем как изменять последний символ строки в StringBuilder.
+        // Теперь мы можем изменять последний символ строки в StringBuilder.
